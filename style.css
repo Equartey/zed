@@ -1,0 +1,25 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+h1{
+	font-size: 2em;
+	padding-top:.5em;
+	padding-bottom: .5em;
+}
+em{
+	font-style: italic;
+}
+#game-board{
+	position: relative;
+	display: inline-block;
+}
+#m-canvas{
+	border: 1px solid black;
+}
